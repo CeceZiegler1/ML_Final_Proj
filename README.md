@@ -44,6 +44,11 @@ Cece: My first goal for our final project was to complete a project that involve
 David: My initial goals had a heavy emphasis on communication and writing. Given that the dataset we have chosen is focused on baseball, I expect that I will take on a large role in synthesizing our findings into digestible prose. I also noted in my goals that I wanted to play an active role in implementation despite my lack of experience. I hope that through a significant project such as this, I will be able to improve my ability to take an idea from conception to production utilizing concepts we have learned in class. 
 
 
+# Ethics Statement
 
-https://github.com/drivelineresearch/openbiomechanics
+Male individuals with access to resources have the potential to benefit from this project. The resources necessary to capture this data are extensive and expensive, meaning that there will be certain individuals that benefit more than others from this project. Because the dataset that we are using is a male dataset, female athletes have the potential to be excluded from this project as the data is fit to male standards.  
+
+Our project will individually benefit male athletes and their coaching staff to tailor their training to their individual talents and weaknesses, allowing them to be the best athlete they can be. While the impact will be contained within the sports world, we are excited to work on this project. We do not anticipate a global effect from this project but are excited by the potential for other sports teams, male and female, to adopt a similar method. 
+
+
 
