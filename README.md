@@ -41,6 +41,8 @@ Julia: My goals were focused on creating a strong work dynamic, ensuring that we
 
 Cece: My first goal for our final project was to complete a project that involved predictive analysis in sports. I am excited to learn about what factors most impact the bat speed of an athlete and how machine learning is impactful in determining the factors. Additionally, my goals included submitting my portion of the project on time, and working with my group members to draft and revise different sections. I am excited to work with my group members on this project and learn more about how machine learning is used with predictive models in sports. 
 
+David: My initial goals had a heavy emphasis on communication and writing. Given that the dataset we have chosen is focused on baseball, I expect that I will take on a large role in synthesizing our findings into digestible prose. I also noted in my goals that I wanted to play an active role in implementation despite my lack of experience. I hope that through a significant project such as this, I will be able to improve my ability to take an idea from conception to production utilizing concepts we have learned in class. 
+
 
 
 https://github.com/drivelineresearch/openbiomechanics
