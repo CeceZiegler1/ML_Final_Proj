@@ -40,6 +40,10 @@ Cece: My first goal for our final project was to complete a project that involve
 
 David: My initial goals had a heavy emphasis on communication and writing. Given that the dataset we have chosen is focused on baseball, I expect that I will take on a large role in synthesizing our findings into digestible prose. I also noted in my goals that I wanted to play an active role in implementation despite my lack of experience. I hope that through a significant project such as this, I will be able to improve my ability to take an idea from conception to production utilizing concepts we have learned in class. 
 
+# Risk Statement
+
+One potential risk that we could foresee is that bat speed is not easily explained by isolated biomechanical factors. Baseball swings are highly coordinated actions that rely on well sequenced movements for contact to occur. By simply looking at points of data rather than the full picture, we may not accurately predict bat speed values. Another potential risk is that the data may have rather high variability and bat speed is far too nuanced to be modeled. Baseball swings are unique to the individual, and we may find that different players can be successful with different strengths. 
+
 
 # Ethics Statement
 
