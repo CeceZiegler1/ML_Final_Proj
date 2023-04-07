@@ -15,5 +15,14 @@ Ultimately, we will evaluate our success based on our ability to explain our dat
 
 In building a predicitve model for bat speed, we could help inform coaching decision when it comes to developing hitters. If an athlete's true bat speed closely aligns with their predicted bat speed, this would mean that they are currently moving efficiently in the swing. In other words, they are transfering all of the energy they produce through the bat and into contact. On the other hand, if a hitter did not meet their predicted bat speed value, this would be indicitve of a mechanical inefficiency. As a result, a coach with access to this data and model would be able to bucket athletes into two main groups: strength focused and skill focused. Players with efficient movements would benefit from strength training to increase their baseline capabilities for bat speed, whereas players with high force production would benefit from a mechanical focus.
 
+Planned Deliverables
+
+For our project, we plan to have a Python package that will include the code we will use to create our predictive model. We will include detailed documentation that will explain our methodology and decisions. Along with our Python package, we will include two Jupyter notebooks. The first Jupyter notebook will include our exploratory data analysis and supervised learning portion where we will determine which features of our dataset are most important in predicting the bat speed of an athlete. Our second Jupyter notebook will include our unsupervised predictive model in which we will fit our model on a training data set and then test our model to see how well it performs. We will use our Python package within our Jupyter notebooks to run our models and present our findings throughout the project in the Jupyter notebooks. These notebooks will include an in-depth analysis of our key variables along with graphs to support our findings. Additionally, our notebook will include our final predictive model, along with additional supportive graphs that detail our model’s performance. 
+
+We will consider our deliverables successful if we are able to have a working model and an analysis of its strength. We mainly hope to achieve a strong explanation of our project and process as to detail how we were able to create our model and where further work is needed. 
+
+As we work, we may find that our planned deliverables are either sufficient or insufficient for our process, and we are excited to adapt as necessary.
+
+
 https://github.com/drivelineresearch/openbiomechanics
 
