@@ -35,6 +35,13 @@ From the OBP dataset, we will be focusing on baseball-hitting data, specifically
 
 The data can be collected from the following link: https://github.com/drivelineresearch/openbiomechanics
 
+# Individual Learning Goals
+
+Julia: My goals were focused on creating a strong work dynamic, ensuring that we are meeting consistently and keeping up with deadlines. Additionally, from a personal standpoint, I have a goal of taking the lead on a certain section or algorithm. While I’m not sure what that specifically will look like, I’m excited to figure out which section complements my interests and what I hope to work on. 
+
+Cece: My first goal for our final project was to complete a project that involved predictive analysis in sports. I am excited to learn about what factors most impact the bat speed of an athlete and how machine learning is impactful in determining the factors. Additionally, my goals included submitting my portion of the project on time, and working with my group members to draft and revise different sections. I am excited to work with my group members on this project and learn more about how machine learning is used with predictive models in sports. 
+
+
 
 https://github.com/drivelineresearch/openbiomechanics
 
