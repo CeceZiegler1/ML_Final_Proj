@@ -28,7 +28,7 @@ Comprehensive blog post detailing our project, methods, and results.
 
 # Resources Required
 
-From the OBP dataset, we will be focusing on baseball-hitting data, specifically force plate and joint velocity. 
+From the OBP dataset, we will be focusing on baseball-hitting data, specifically force plate and joint velocity to predict bat speed. 
 
 The data can be collected from the following link: https://github.com/drivelineresearch/openbiomechanics
 
