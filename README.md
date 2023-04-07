@@ -29,6 +29,12 @@ As we work, we may find that our planned deliverables are either sufficient or i
 
 Comprehensive blog post detailing our project, methods, and results. 
 
+# Resources Required
+
+From the OBP dataset, we will be focusing on baseball-hitting data, specifically force plate and joint velocity. 
+
+The data can be collected from the following link: https://github.com/drivelineresearch/openbiomechanics
+
 
 https://github.com/drivelineresearch/openbiomechanics
 
