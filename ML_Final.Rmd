@@ -1,0 +1,73 @@
+---
+title: "ML_Final"
+author: "Cece Ziegler"
+date: "4/17/2023"
+output: html_document
+---
+
+```{r}
+baseball_test <- read.csv("/Users/ceceziegler/Desktop/CeceZiegler1.github.io/ML_Final_Proj/force_plate.csv")
+
+baseball_test <- baseball_test%>%
+  group_by(session_swing)%>%
+  summarise(across(c(time, rear_force_x, rear_force_y, rear_force_z, lead_force_x, lead_force_y, lead_force_z, fp_10_time, fp_100_time, contact_time), sum))
+
+force_plate <- subset(baseball_test, select = -c(time, fp_10_time, fp_100_time, contact_time))
+
+force_plate_summary <-force_plate%>%
+  group_by(session_swing)%>%
+  summarise(max_rfx = max(rear_force_x, na.rm =T),
+            min_rfx = min(rear_force_x, na.rm =T),
+            max_rfy = max(rear_force_y, na.rm =T),
+            min_rfy = min(rear_force_y, na.rm =T),
+            max_rfz = max(rear_force_z, na.rm =T),
+            min_rfz = min(rear_force_z, na.rm =T),
+            max_lfx = max(lead_force_x, na.rm =T),
+            min_lfx = min(lead_force_x, na.rm =T),
+            max_lfy = max(lead_force_y, na.rm =T),
+            min_lfy = min(lead_force_y, na.rm =T),
+            max_lfz = max(lead_force_z, na.rm =T),
+            min_lfz = min(lead_force_z, na.rm =T),
+            range_rfx = max(rear_force_x) -min(rear_force_x),
+            range_rfy = max(rear_force_y) -min(rear_force_y),
+            range_rfz = max(rear_force_z) -min(rear_force_z),
+            range_lfx = max(lead_force_x) -min(lead_force_x),
+            range_lfy = max(lead_force_y) -min(lead_force_y),
+            range_lfz = max(lead_force_z) -min(lead_force_z))
+
+write_csv(force_plate_summary, "force_plate_summary.csv")
+  
+max_rfx <- max(force_plate$rear_force_x, na.rm=T)
+max_rfy <- max(force_plate$rear_force_y, na.rm=T)
+max_rfz <- max(force_plate$rear_force_z, na.rm=T)
+
+min_rfx <- min(force_plate$rear_force_x, na.rm=T)
+min_rfy <- min(force_plate$rear_force_y, na.rm=T)
+min_rfz <- min(force_plate$rear_force_z, na.rm=T)
+
+range_rfx <- max_rfx - min_frx
+range_rfy <- max_rfy - min_fry
+range_rfz <- max_rfz - min_frz
+
+max_lfx <- max(force_plate$lead_force_x, na.rm=T)
+max_lfy <- max(force_plate$lead_force_y, na.rm=T)
+max_lfz <- max(force_plate$lead_force_z, na.rm=T)
+
+min_lfx <- min(force_plate$lead_force_x, na.rm=T)
+min_lfy <- min(force_plate$lead_force_y, na.rm=T)
+min_lfz <- min(force_plate$lead_force_z, na.rm=T)
+
+range_lfx <- max_lfx - min_lfx
+range_lfy <- max_lfy - min_lfy
+range_lfz <- max_lfz - min_lfz
+
+for_plate_range <- force_plate%>%
+  group_by(session_swing)%>%
+  summarise(range_rfx = rear_force_x -rear_force_x,
+            range_rfy = rear_force_y -rear_force_y,
+            range_rfz = rear_force_z -rear_force_z,
+            range_lfx = lead_force_x -lead_force_x,
+            range_lfy = lead_force_y -lead_force_y,
+            range_lfz = lead_force_z -lead_force_z)
+
+```
