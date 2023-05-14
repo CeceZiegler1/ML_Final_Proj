@@ -1,6 +1,6 @@
 # Machine Learning CS0451 Project Proposal
 
-Cece Ziegler, David Bryne, Julia Fairbank
+Cece Ziegler, David Bryne, Julia Fairbank, Sam Ehrsam
 April 7th, 2023
 
 # Utilizing Biomechanical and Force Plate Data to Predict Bat Speed for Baseball Hitters
